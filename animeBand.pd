@@ -317,7 +317,7 @@
 #X obj 149 17 inlet;
 #X obj 182 168 loadbang;
 #X msg 182 197 1;
-#X text 319 118 Professor Salazar's keydown object: Used to send the
+#X text 319 118 keydown object: Used to send the
 exact moment a key is pressed down and released.;
 #X connect 0 0 15 0;
 #X connect 1 0 2 0;
@@ -651,11 +651,11 @@ exact moment a key is pressed down and released.;
 #X connect 19 0 8 1;
 #X restore 1671 74 pd keydown;
 #X msg 1671 46 114;
-#X obj 659 2352 pix_image whomst.jpg;
-#X obj 886 2684 pix_image squidward.jpg;
-#X obj 427 2699 pix_image patrick_star.jpg;
-#X obj 431 2343 pix_image plankton.jpg;
-#X obj 886 2330 pix_image mrkrabs.jpg;
+#X obj 659 2352 pix_image totoro.jpg;
+#X obj 886 2684 pix_image calcifer.jpg;
+#X obj 427 2699 pix_image princess.jpg;
+#X obj 431 2343 pix_image noname.jpg;
+#X obj 886 2330 pix_image ponyo.jpg;
 #X floatatom 1671 102 5 0 0 0 - - -;
 #X obj 821 2054 line;
 #X obj 595 2051 line;
